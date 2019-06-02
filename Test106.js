@@ -13,7 +13,7 @@ function FirstReverse(str) {
 function EvenrOdd(str) {
     var num1 = str.length;
     var num2 = Number(num1);
-    vsmaar num3 = num2 % 2;
+    var num3 = num2 % 2;
     if (num3 == 0) {
         num8 = 'even';
     } else {
