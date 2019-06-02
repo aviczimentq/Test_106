@@ -11,24 +11,15 @@ function FirstReverse(str) {
     return num4;
 }
 function EvenrOdd(str) {
-    var num1 = str;
-    var num2 = num1.length;
-    var num3 = 'even';
-    var num4 = 'odd';
-    if (num2 == 2) {
-        num5 = num3;
-    } else if (num2 == 4) {
-        num5 = num3;
-    } else if (num2 == 6) {
-        num5 = num3;
-    } else if (num2 == 8) {
-        num5 = num3;
-    } else if (num2 == 10) {
-        num5 = num3;
+    var num1 = str.length;
+    var num2 = Number(num1);
+    vsmaar num3 = num2 % 2;
+    if (num3 == 0) {
+        num8 = 'even';
     } else {
-        num5 = num4;
+        num8 = 'odd';
     }
-    return num5;
+    return num8;
 }
 function input1() {
     var num0 = document.getElementById('one').value;
